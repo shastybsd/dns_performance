@@ -9,3 +9,6 @@ www.jp.freebsd.org
 www.br.freebsd.org
 www.netbsd.org
 aol.com
+www.santander.com.br
+www.bb.com.br
+www.itau.com.br
