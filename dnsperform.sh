@@ -11,7 +11,7 @@ set cont = 0
 set soma = 0
 
 foreach i ( `cat hosts.txt` )
-	echo "Tempo da consulta do host $i $tempo"
+	echo "Tempo da consulta do host ${i}: $tempo ms"
 	echo "Numero da consulta: $cont"
 #	echo "Tempo total: $soma"
 	set tempo = `dig $i @$1 | grep Query | cut -f4 -d" "`
