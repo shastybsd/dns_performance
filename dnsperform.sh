@@ -24,6 +24,7 @@ foreach i ( `cat hosts.txt` )
 	set cont = `expr $cont \+ 1`
 end
 
+echo "=================================================="
 echo "Servidor DNS: $1"
 echo "Tempo total: $soma ms"
 echo "Media de tempo: `expr $soma / $cont` ms"
