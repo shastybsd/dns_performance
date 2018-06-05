@@ -2,6 +2,7 @@
 
 if ( $#argv == 0 ) then 
 	echo "Entre com o servidor DNS a ser usado" 
+	echo "Exemplo: ./dnsperfom.sh 127.0.0.1"
 	exit
 endif
 
