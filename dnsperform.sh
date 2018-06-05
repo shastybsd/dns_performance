@@ -19,12 +19,12 @@ foreach i ( `cat hosts.txt` )
 #			echo "Com erro $soma"
 #		elseif
 			set soma = `expr $tempo \+ $soma` 
-			echo "Sem erro $soma"
+#			echo "Sem erro $soma"
 #		endif
 	set cont = `expr $cont \+ 1`
 end
 
 echo "Servidor DNS: $1"
-echo "Tempo total: $soma"
-echo "Media de tempo: `expr $soma / $cont` "
+echo "Tempo total: $soma ms"
+echo "Media de tempo: `expr $soma / $cont` ms"
 echo "Total de consultas: $cont"
