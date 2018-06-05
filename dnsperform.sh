@@ -12,7 +12,7 @@ set soma = 0
 foreach i ( `cat hosts.txt` )
 	echo "Tempo da consulta do host $i $tempo"
 	echo "Numero da consulta: $cont"
-	echo "Tempo total: $soma"
+#	echo "Tempo total: $soma"
 	set tempo = `dig $i @$1 | grep Query | cut -f4 -d" "`
 #		if ( `echo $?` != 0 ) then
 #			set soma = `expr 1000 \+ $soma`
