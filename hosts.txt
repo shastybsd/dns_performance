@@ -1,0 +1,11 @@
+www.google.com
+api.google.com
+microsoft.com
+kernel.org
+ftp.openbsd.org
+registro.br
+br.com.br
+www.jp.freebsd.org
+www.br.freebsd.org
+www.netbsd.org
+aol.com
