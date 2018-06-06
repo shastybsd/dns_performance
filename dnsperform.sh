@@ -14,7 +14,7 @@ foreach i ( `cat hosts.txt` )
 	echo "Tempo da consulta do host ${i}: $tempo ms"
 	echo "Numero da consulta: `expr $cont \+ 1`"
 #	echo "Tempo total: $soma"
-	set tempo = `dig $i @$1 | grep Query | cut -f4 -d" "`
+	set tempo = `drill $i @$1 | grep Query | cut -f4 -d" "`
 #		if ( `echo $?` != 0 ) then
 #			set soma = `expr 1000 \+ $soma`
 #			echo "Com erro $soma"
