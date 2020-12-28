@@ -3,3 +3,4 @@
 * Necessita de um arquivo hosts.txt onde contem os hosts
 a serem testados
 * Necessita do drill
+* Funciona em FreeBSD
